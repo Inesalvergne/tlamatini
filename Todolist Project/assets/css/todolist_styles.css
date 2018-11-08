@@ -1,0 +1,89 @@
+
+
+body{ 
+	background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4bbb31a47384880bb5d5c292e4b401d&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: local;
+	content: "";
+  	opacity: 0.98;
+  	position: absolute;
+  	top: 0.5;
+  	bottom: 0;
+  	right: 0;
+  	left: 0;
+  	z-index: -1; 
+ }
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: black;
+	font-family: Space Mono;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+/*.fa-plus{
+	font-size: 1.5em;
+	color: "black";
+}*/
+
+
+li{
+	font-family: Space Mono;
+	font-size: 20px;
+	height: 40px;
+	line-height: 80px;
+	color: black;
+}
+
+li span{
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	color: black;
+	display: inline-block;	
+}
+
+input{
+	font-size: 18px;
+	background: rgba(128, 128, 128, 0.5);
+	border: rgba(128, 128, 128, 0.2);
+	width: 90%;
+	padding: 8px 8px 8px 8px;
+	margin-left: 23px;
+	box-sizing: border-box;
+	color: #2980b9;
+}
+
+#container{
+	width: 550px;
+	height: 400px;
+	margin-top: 150px;
+	margin-left: 440px;
+	margin-bottom: 30px;
+	background-color:rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	border-radius: 20px
+}
+
+body #container{
+	background-color: rgba(255,255,255,0.4);
+}
+
+
+.completed{
+	color: gray;
+	text-decoration: line-through;
+}
+
+
+
